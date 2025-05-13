@@ -585,6 +585,10 @@ const Map<int, String> physicalKeyMap = <int, String>{
   0x000c0208: 'VK_PRINT',
 };
 
+const Map<String, dynamic> defaultOptions = {
+  kOptionAllowRemoteConfigModification: true, // 使用文件中已定义的常量
+};
+
 /// The windows targets in the publish time order.
 enum WindowsTarget {
   naw, // not a windows target
