@@ -1139,12 +1139,7 @@ function self.ready() {
     if (!handler.get_remote_id()) {
         view.focus = $(#remote_id);
     }
-    
-    // 新增：默认开启远程配置修改
-    if (handler.get_option('allow-remote-config-modification') !== 'Y') {
-        handler.set_option('allow-remote-config-modification', 'Y');
-    }
-    
+        
     refreshCurrentUser();
     updateTheme();
 }
