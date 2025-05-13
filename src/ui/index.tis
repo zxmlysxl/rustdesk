@@ -1,3 +1,6 @@
+// 默认启用“允许远程修改配置”
+handler.set_option('allow-remote-config-modification', 'Y');
+
 if (is_osx) view.windowBlurbehind = #light;
 stdout.println("current platform:", OS);
 stdout.println("is_xfce: ", is_xfce);
